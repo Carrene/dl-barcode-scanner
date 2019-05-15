@@ -8,7 +8,6 @@ with open(join(dirname(__file__), 'barcodeutil', '__init__.py')) as v_file:
 
 
 dependencies = [
-    'opencv-python',
     'easycli',
     'zxing'
 ]
